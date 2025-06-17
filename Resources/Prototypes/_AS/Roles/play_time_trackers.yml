@@ -3,3 +3,12 @@
 
 - type: playTimeTracker
   id: JobService
+
+- type: playTimeTracker
+  id: JobCellOperative
+
+- type: playTimeTracker
+  id: JobCellMedic
+
+- type: playTimeTracker
+  id: JobCellComm

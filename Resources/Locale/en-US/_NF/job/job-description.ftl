@@ -21,3 +21,8 @@ job-description-sheriff = Manage your department and keep them efficient, quell 
 job-description-stc = Expertly de-conflict the space around the station and help the NFSD issue fines for overdocked ships.
 job-description-sr = Handle access reassignment fairly using your ID console, manage Frontier outpost, and keep Clippy safe.
 job-description-valet = Take care of the station and its many guests.
+
+# Aurora Song
+job-description-cell-comm = Take charge of and direct the Exfiltrator Cell to undermine NT interests, and fulfill objectives.
+job-description-cell-medic = Attend to the health of the Exfiltrator Cell as best you can during operations.
+job-description-cell-operative = Follow your Commanders orders and undermine NT interests, while following COP. Failure is Dereliction.

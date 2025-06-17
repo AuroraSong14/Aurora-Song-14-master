@@ -1,0 +1,10 @@
+﻿- type: department
+  id: Exfiltrators
+  name: department-Exfiltrators
+  description: department-Exfils-description
+  color: "#5c1414"
+  weight: -20
+  roles:
+  - CellCommander
+  - CellOperative
+  - CellMedic

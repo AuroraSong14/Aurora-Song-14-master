@@ -1,0 +1,9 @@
+﻿- type: loadout
+  id: OperativeGaiter
+  equipment:
+    face: ClothingMaskNeckGaiter
+
+- type: loadout
+  id: OperativeGasMask
+  equipment:
+    face: ClothingMaskGasSyndicate

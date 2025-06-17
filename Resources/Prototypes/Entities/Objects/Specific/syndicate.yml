@@ -72,6 +72,15 @@
     balance:
       Telecrystal: 0
 
+- type: entity # Aurora Song
+  parent: BaseUplinkRadio
+  id: BaseUplinkRadio10TC
+  suffix: 10 TC
+  components:
+  - type: Store
+    balance:
+      Telecrystal: 10
+
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio20TC

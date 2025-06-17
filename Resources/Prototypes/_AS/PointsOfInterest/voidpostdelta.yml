@@ -1,0 +1,35 @@
+﻿- type: pointOfInterest
+  id: Voidpost Delta
+  parent: BasePOI
+  name: Voidpost Delta
+  minimumDistance: 10000
+  maximumDistance: 13400
+  spawnGroup: Required
+  gridPath: /Maps/_AS/POI/voidpostdelta.yml
+  hideWarp: true
+  addComponents:
+  - type: IFF
+    color: "#f54242"
+    flags: [ HideLabel ]
+    readOnly: false
+
+- type: gameMap
+  id: Voidpost Delta
+  mapName: Voidpost Delta
+  mapPath: /Maps/_AS/POI/voidpostdelta.yml
+  minPlayers: 0
+  stations:
+    Voidpost Delta:
+      stationProto: RecordsFrontierOutpost
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: Voidpost Delta
+      - type: ExtraStationInformation
+        stationSubtext: 'frontier-lobby-exfiltrators-subtext'
+        stationDescription: 'frontier-lobby-exfiltrators-description'
+        lobbySortOrder: 4
+      - type: StationJobs
+        availableJobs:
+          CellCommander: [ 1, 1 ]
+          CellMedic: [ 1, 0]
+          CellOperative: [ 2, 0 ]

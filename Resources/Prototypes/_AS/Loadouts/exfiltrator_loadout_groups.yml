@@ -1,0 +1,105 @@
+﻿- type: loadoutGroup
+  id: ExfiltratorJumpsuit
+  name: loadout-group-contractor-jumpsuit
+  loadouts:
+  - OperativeClothingUniformJumpskirt
+  - OperativeClothingUniformJumpsuit
+
+  fallbacks:
+  - OperativeClothingUniformJumpsuit
+  - OperativeClothingUniformJumpskirt
+
+- type: loadoutGroup
+  id: ExfiltratorBackpack
+  name: loadout-group-contractor-backpack
+  loadouts:
+  - OperativeClothingBackpackDuffel
+  - OperativeClothingBackpack
+  - OperativeClothingBackpackMessenger
+
+  fallbacks:
+  - OperativeClothingBackpack
+
+- type: loadoutGroup
+  id: ExfiltratorBelt
+  name: loadout-group-contractor-belt
+  loadouts:
+  - OperativeClothingBeltSyndieHolster
+  - OperativeClothingBeltAssault
+  - OperativeClothingBeltSecurityWebbing
+
+- type: loadoutGroup
+  id: ExfiltratorGloves
+  name: loadout-group-contractor-gloves
+  minLimit: 0
+  loadouts:
+  - OperativeGlovesCombat
+  - OperativeGlovesBlack
+
+- type: loadoutGroup
+  id: ExfiltratorShoes
+  name: loadout-group-contractor-shoes
+  loadouts:
+  - OperativeJackboots
+
+- type: loadoutGroup
+  id: ExfiltratorEyes
+  name: loadout-group-contractor-glasses
+  minLimit: 0
+  loadouts:
+  - OperativeSunGlasses
+  - OperativeVisor
+
+- type: loadoutGroup
+  id: ExfiltratorNeck
+  name: loadout-group-contractor-neck
+  minLimit: 0
+  loadouts:
+  - OperativeNeckScarfStripedSyndieRed
+  - OperativeNeckScarfStripedSyndieGreen
+
+- type: loadoutGroup
+  id: ExfiltratorEars
+  name: loadout-group-contractor-ears
+  minLimit: 1
+  hidden: true # Auto-selected, no point showing
+  loadouts:
+  - OperativeHeadset
+  fallbacks:
+  - OperativeHeadset
+
+- type: loadoutGroup
+  id: ExfiltratorFace
+  name: loadout-group-contractor-face
+  minLimit: 0
+  loadouts:
+  - OperativeGaiter
+  - OperativeGasMask
+
+- type: loadoutGroup
+  id: ExfiltratorHead
+  name: loadout-group-contractor-head
+  minLimit: 0
+  loadouts:
+  - OperativeHatSyndie
+  - OperativeHatOutlaw
+
+- type: loadoutGroup
+  id: ExfiltratorImplanter
+  name: loadout-group-contractor-implanter
+  minLimit: 1
+  hidden: true
+  loadouts:
+  - ExfiltratorRattlerImplanter
+  fallbacks:
+  - ExfiltratorRattlerImplanter
+
+- type: loadoutGroup
+  id: OperativePDA
+  name: loadout-group-contractor-pda
+  minLimit: 1
+  hidden: true # Auto-selected, no point showing
+  loadouts:
+  - CellOperativePDA
+  fallbacks:
+  - CellOperativePDA

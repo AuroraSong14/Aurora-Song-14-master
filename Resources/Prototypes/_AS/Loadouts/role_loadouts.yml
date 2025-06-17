@@ -48,3 +48,55 @@
   - ContractorHandItems
   - NFSpeciesSpecific
 
+# Exfiltrators
+
+- type: roleLoadout
+  id: JobCellOperative
+  groups:
+  - ExfiltratorJumpsuit
+  - ExfiltratorBackpack
+  - ExfiltratorEyes
+  - ExfiltratorFace
+  - ExfiltratorGloves
+  - ExfiltratorEars
+  - ExfiltratorShoes
+  - ExfiltratorBelt
+  - ExfiltratorImplanter
+  - ContractorBoxSurvival
+  - NFSpeciesSpecific
+  - OperativePDA
+  canCustomizeName: true #yippee for secret identity
+
+- type: roleLoadout
+  id: JobCellMedic
+  groups:
+  - CellMedJumpsuit
+  - CellMedBags
+  - ExfiltratorEyes
+  - ExfiltratorFace
+  - ExfiltratorGloves
+  - ExfiltratorEars
+  - ExfiltratorShoes
+  - CellMedBelts
+  - ExfiltratorImplanter
+  - ContractorBoxSurvival
+  - NFSpeciesSpecific
+  - CellMedicCellMedPDA
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: JobCellCommander
+  groups:
+  - CellCommJumpsuit
+  - CellCommBelt
+  - ExfiltratorBackpack
+  - ExfiltratorEyes
+  - ExfiltratorFace
+  - ExfiltratorGloves
+  - ExfiltratorEars
+  - ExfiltratorShoes
+  - ExfiltratorImplanter
+  - ContractorBoxSurvival
+  - NFSpeciesSpecific
+  - CellCommPDA
+  canCustomizeName: true

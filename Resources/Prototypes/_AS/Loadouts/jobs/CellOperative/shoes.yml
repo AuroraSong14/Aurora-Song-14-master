@@ -1,0 +1,7 @@
+﻿- type: loadout
+  id: OperativeJackboots
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: ShoesCapableNF
+  equipment:
+    shoes: ClothingShoesBootsJack

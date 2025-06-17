@@ -1,0 +1,9 @@
+﻿# Exfiltrator implanters
+
+- type: entity
+  id: DeathRattleExfilImplanter
+  suffix: death rattle Exf
+  parent: BaseImplantOnlyImplanterSyndi
+  components:
+  - type: Implanter
+    implant: DeathRattleExfilImplant

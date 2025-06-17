@@ -1,0 +1,10 @@
+﻿- type: loadout
+  id: OperativeGlovesCombat
+  price: 600
+  equipment:
+    hands: ClothingHandsGlovesCombat
+
+- type: loadout
+  id: OperativeGlovesBlack
+  equipment:
+    hands: ClothingHandsGlovesColorBlack

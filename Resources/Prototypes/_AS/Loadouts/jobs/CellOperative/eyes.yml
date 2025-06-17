@@ -1,0 +1,11 @@
+﻿- type: loadout
+  id: OperativeSunGlasses
+  price: 500
+  equipment:
+    eyes: ClothingEyesGlassesHiddenSecurity
+
+- type: loadout
+  id: OperativeVisor
+  price: 500
+  equipment:
+    eyes: ClothingEyesHudSyndicate

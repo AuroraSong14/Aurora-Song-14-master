@@ -1,0 +1,14 @@
+﻿- type: loadout
+  id: CellMedClothingBackpackDuffel
+  equipment:
+    back: ClothingBackpackDuffelSyndicate
+
+- type: loadout
+  id: CellMedClothingBackpack
+  equipment:
+    back: ClothingBackpackSyndicate
+
+- type: loadout
+  id: CellMedClothingBackpackMessenger
+  equipment:
+    back: ClothingBackpackMessengerSyndicate

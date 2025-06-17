@@ -1,0 +1,29 @@
+﻿- type: loadoutGroup
+  id: CellCommJumpsuit
+  name: loadout-group-contractor-jumpsuit
+  loadouts:
+  - CellCommClothingUniformJumpskirtFormal
+  - CellCommClothingUniformJumpsuitFormal
+
+  fallbacks:
+  - CellCommClothingUniformJumpsuitFormal
+  - CellCommClothingUniformJumpskirtFormal
+
+- type: loadoutGroup
+  id: CellCommBelt
+  name: loadout-group-contractor-belt
+  minLimit: 0
+  loadouts:
+  - CellCommBeltSabre
+  - CellCommClothingBeltSecurityWebbing
+  - CellCommClothingBeltAssault
+  - CellCommClothingBeltSyndieHolster
+
+- type: loadoutGroup
+  id: CellCommPDA
+  name: loadout-group-contractor-pda
+  hidden: true # No point in showing this, it gets auto-selected.
+  loadouts:
+  - CellCommPDA
+  fallbacks:
+  - CellCommPDA

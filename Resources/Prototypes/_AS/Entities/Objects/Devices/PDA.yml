@@ -1,0 +1,50 @@
+﻿- type: entity
+  parent: BasePDA
+  id: CellOperatorPDA
+  name: Operative PDA
+  description: This PDA smells like... espionage?
+  components:
+  - type: Pda
+    id: CellOperativeNFIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-syndi
+  - type: PdaBorderColor
+    borderColor: "#990000"
+    accentVColor: "#000000"
+
+- type: entity
+  parent: BasePDA
+  id: CellMedicPDA
+  name: Cell-Med PDA
+  description: This PDA smells like... Hyperzine.
+  components:
+  - type: Pda
+    id: CellMedicNFIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-syndi-agent
+  - type: PdaBorderColor
+    borderColor: "#990000"
+    accentVColor: "#000000"
+
+- type: entity
+  parent: BasePDA
+  id: CellCommPDA
+  name: Cell-Commander PDA
+  description: This PDA smells like... Warcrimes.
+  components:
+  - type: Pda
+    id: CellCommanderNFIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-syndi-agent
+  - type: PdaBorderColor
+    borderColor: "#990000"
+    accentVColor: "#000000"

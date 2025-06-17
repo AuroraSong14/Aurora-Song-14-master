@@ -1,0 +1,23 @@
+﻿- type: loadout
+  id: CellMedClothingBeltSyndieHolster
+  price: 300
+  equipment:
+    belt: ClothingBeltSyndieHolster
+
+- type: loadout
+  id: CellMedClothingBeltAssault
+  price: 300
+  equipment:
+    belt: ClothingBeltAssault
+
+- type: loadout
+  id: CellMedClothingBeltSecurityWebbing
+  price: 600
+  equipment:
+    belt: ClothingBeltSecurityWebbing
+
+- type: loadout
+  id: CellMedClothingMilitaryWebbingMedFilled
+  price: 2000
+  equipment:
+    belt: ClothingBeltMilitaryWebbingMedFilled

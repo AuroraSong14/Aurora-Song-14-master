@@ -1,0 +1,9 @@
+﻿- type: entity
+  parent: TelecomServer
+  id: TelecomServerFilledExfiltrator
+  suffix: Exfiltrator
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyExfiltrator

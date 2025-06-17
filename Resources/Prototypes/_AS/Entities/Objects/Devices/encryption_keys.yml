@@ -1,0 +1,15 @@
+﻿- type: entity
+  parent: [EncryptionKey, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  id: EncryptionKeyExfiltrator
+  name: exfiltrator encryption key
+  categories: [ DoNotMap ] # Frontier
+  description: Losing this is Dereliction. You wouldn't want that.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Exfiltrator
+    defaultChannel: Exfiltrator
+  - type: Sprite
+    layers:
+    - state: crypt_silver
+    - state: synd_label

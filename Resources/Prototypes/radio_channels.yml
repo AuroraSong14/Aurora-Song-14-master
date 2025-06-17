@@ -101,7 +101,7 @@
   abstract: true # Frontier
   id: Xenoborg
   name: chat-radio-xenoborg
-  keycode: 'x'
+  keycode: 'j'
   frequency: 2002
   color: "#2288ff"
   # long range since I don't wanna make a special xenoborg telecomm server
@@ -116,3 +116,10 @@
   color: "#ff2222"
   # long range since I don't wanna make a special xenoborg telecomm server
   longRange: true
+
+- type: radioChannel
+  id: Exfiltrator
+  name: chat-radio-exfiltrators
+  keycode: 'x'
+  frequency: 1051
+  color: "#8c2626"

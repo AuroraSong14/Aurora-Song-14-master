@@ -1,0 +1,17 @@
+﻿- type: loadout
+  id: OperativeClothingBeltSyndieHolster
+  price: 300
+  equipment:
+    belt: ClothingBeltSyndieHolster
+
+- type: loadout
+  id: OperativeClothingBeltAssault
+  price: 300
+  equipment:
+    belt: ClothingBeltAssault
+
+- type: loadout
+  id: OperativeClothingBeltSecurityWebbing
+  price: 600
+  equipment:
+    belt: ClothingBeltSecurityWebbing

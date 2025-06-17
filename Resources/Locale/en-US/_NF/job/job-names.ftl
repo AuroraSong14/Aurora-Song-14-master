@@ -24,6 +24,12 @@ job-name-stc = Station Traffic Controller
 job-name-sr = Station Representative
 job-name-valet = Valet
 
+# Aurora Song
+job-name-cell-comm = Cell Commander
+job-name-cell-medic = Cell Medic
+job-name-cell-operative = Cell Operative
+
+
 # Job titles
 job-title-ert-mail-carrier = ERT Mail Carrier
 

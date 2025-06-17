@@ -1,0 +1,9 @@
+﻿- type: loadout
+  id: OperativeNeckScarfStripedSyndieRed
+  equipment:
+    neck: ClothingNeckScarfStripedSyndieRed
+
+- type: loadout
+  id: OperativeNeckScarfStripedSyndieGreen
+  equipment:
+    neck: ClothingNeckScarfStripedSyndieGreen

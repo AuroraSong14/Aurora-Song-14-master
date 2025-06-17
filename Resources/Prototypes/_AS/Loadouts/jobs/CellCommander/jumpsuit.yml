@@ -1,0 +1,10 @@
+﻿- type: loadout
+  id: CellCommClothingUniformJumpskirtFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSyndieFormalDress
+
+- type: loadout
+  id: CellCommClothingUniformJumpsuitFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSyndieFormalNF
+

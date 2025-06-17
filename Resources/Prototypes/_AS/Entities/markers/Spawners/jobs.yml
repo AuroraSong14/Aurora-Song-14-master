@@ -25,3 +25,35 @@
       - state: serviceworker
 
 
+- type: entity
+  id: SpawnPointCellCommander
+  parent: SpawnPointJobBase
+  name: Cell Commander
+  components:
+  - type: SpawnPoint
+    job_id: CellCommander
+  - type: Sprite
+    sprite: Structures/Decoration/banner.rsi
+    state: banner-red
+
+- type: entity
+  id: SpawnPointCellMedic
+  parent: SpawnPointJobBase
+  name: Cell Medic
+  components:
+  - type: SpawnPoint
+    job_id: CellMedic
+  - type: Sprite
+    sprite: Structures/Decoration/banner.rsi
+    state: banner-red
+
+- type: entity
+  id: SpawnPointCellOperative
+  parent: SpawnPointJobBase
+  name: Cell Operative
+  components:
+  - type: SpawnPoint
+    job_id: CellOperative
+  - type: Sprite
+    sprite: Structures/Decoration/banner.rsi
+    state: banner-red

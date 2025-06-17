@@ -8,3 +8,5 @@ job-supervisors-nfsd = Deputies, the Bailiff, and the Sheriff
 job-supervisors-nf-pirate = the First Mate and Captain
 job-supervisors-nf-pirate-captain = the Captain
 job-supervisors-freebooters-union = the Freebooters' Union
+job-supervisors-syndicate = Syndicate High Command # Aurora Song
+job-supervisors-cellcomm = the Cell Commander # Aurora Song

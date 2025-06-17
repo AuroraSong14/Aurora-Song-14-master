@@ -1,0 +1,46 @@
+﻿- type: job
+  id: CellMedic
+  name: job-name-cell-medic
+  description: job-description-cell-medic
+  playTimeTracker: JobCellMedic
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 72000 # 20 hrs
+  - !type:RoleTimeRequirement
+    role: JobCellOperative
+    time: 10800 # 3 hours
+  whitelisted: true
+  startingGear: CellMedGear
+  alwaysUseSpawner: true
+  requireAdminNotify: false
+  supervisors: job-supervisors-cellcomm
+  weight: 180
+  displayWeight: 55 # Second from the top
+  canBeAntag: true
+  access:
+  - SyndicateAgent
+  - NuclearOperative
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: MailDisabled
+    - type: SpecialSectorStationRecord
+      recordGeneration: FalseRecord
+    - type: NpcFactionMember
+      factions:
+      - ExfiltratorsNF
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
+
+- type: startingGear
+  id: CellMedGear
+  equipment:
+    pocket1: NFWeaponEnergyPistolDisabler
+    pocket2: NFWeaponPistolViper
+    ears: ClothingHeadsetExfiltrator
+  storage:
+    back:
+    - BaseUplinkRadio10TC
+    - NFMagazineHighCapacityPistol35
+    - NFMagazineHighCapacityPistol35

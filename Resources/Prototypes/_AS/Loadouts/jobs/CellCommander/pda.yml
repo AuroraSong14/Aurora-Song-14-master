@@ -1,0 +1,4 @@
+﻿- type: loadout
+  id: CellCommPDA
+  equipment:
+    id: CellCommPDA

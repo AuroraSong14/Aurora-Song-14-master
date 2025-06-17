@@ -1,0 +1,36 @@
+﻿- type: loadoutGroup
+  id: CellMedJumpsuit
+  name: loadout-group-contractor-jumpsuit
+  loadouts:
+  - CellMedClothingUniformJumpsuit
+  - CellMedClothingUniformJumpskirt
+  - CellMedClothingUniformJumpskirtFormal
+  - CellMedClothingUniformJumpsuitFormal
+  fallbacks:
+  - CellMedClothingUniformJumpsuit
+  - CellMedClothingUniformJumpskirt
+
+- type: loadoutGroup
+  id: CellMedBelts
+  name: loadout-group-contractor-belt
+  loadouts:
+  - CellMedClothingBeltSyndieHolster
+  - CellMedClothingBeltAssault
+  - CellMedClothingMilitaryWebbingMedFilled
+
+- type: loadoutGroup
+  id: CellMedBags
+  name: loadout-group-contractor-backpack
+  loadouts:
+  - CellMedClothingBackpackDuffel
+  - CellMedClothingBackpack
+  - CellMedClothingBackpackMessenger
+
+- type: loadoutGroup
+  id: CellMedicCellMedPDA
+  name: loadout-group-contractor-pda
+  hidden: true # No point in showing this, it gets auto-selected.
+  loadouts:
+  - CellMedicPDA
+  fallbacks:
+  - CellMedicPDA

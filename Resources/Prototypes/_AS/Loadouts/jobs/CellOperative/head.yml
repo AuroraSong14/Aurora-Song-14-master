@@ -1,0 +1,9 @@
+﻿- type: loadout
+  id: OperativeHatSyndie
+  equipment:
+    head: ClothingHeadHatSyndie
+
+- type: loadout
+  id: OperativeHatOutlaw
+  equipment:
+    head: ClothingHeadHatOutlawHat

@@ -11,3 +11,37 @@
     - state: idmedicaldoctor
   - type: Item
     heldPrefix: medic #temporary to OBSERVE
+
+
+- type: entity
+  parent: SyndicateIDCard
+  id: CellOperativeNFIDCard
+  name: Cell Operative ID card
+  description: Losing track of this is Dereliction.
+  components:
+  - type: PresetIdCard
+    job: CellOperative
+  - type: Item
+    heldPrefix: Operative
+
+- type: entity
+  parent: SyndicateIDCard
+  id: CellMedicNFIDCard
+  name: Cell Medic ID card
+  description: Smells like toxicology and malpractice.
+  components:
+  - type: PresetIdCard
+    job: CellMedic
+  - type: Item
+    heldPrefix: Operative
+
+- type: entity
+  parent: SyndicateIDCard
+  id: CellCommanderNFIDCard
+  name: Cell Commander ID card
+  description: You know what you're doing, or do you.
+  components:
+  - type: PresetIdCard
+    job: CellCommander
+  - type: Item
+    heldPrefix: Commander

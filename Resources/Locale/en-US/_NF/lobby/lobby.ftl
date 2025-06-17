@@ -29,7 +29,7 @@ frontier-lobby-medical-description = Frontier's medical dispatch hub. Here you c
    - Start or find a medical response crew
    - Socialize with other medics
    - Purchase medical specialist ships
-   - Drop off medical bounties  
+   - Drop off medical bounties
  Some of the roles on this station are whitelist-only and require an application in the discord to be accepted.
 
 frontier-lobby-nfsd-subtext = The center of operations for the Sheriffs department.
@@ -43,6 +43,14 @@ frontier-lobby-pirate-description = This is the ultimate hideout where scallywag
    - Start a pirate crew
    - Find a crew to join
    - Socialize with other pirates
+ The roles on this station are whitelist-only and require an application in the discord to be accepted.
+
+# Exfiltrators | Aurora Song
+frontier-lobby-exfiltrators-subtext = Syndicate operators working to undermine NT and make the sector feel less safe.
+frontier-lobby-exfiltrators-description = A small cell of specialised Syndicate Operators, possibly even being mind controlled. Here you can:
+  - Serve Syndicate interests
+  - Lead a Cell of operatives in espionage actions
+  - Damage NanoTransen's public image
  The roles on this station are whitelist-only and require an application in the discord to be accepted.
 
 # Crew Menu

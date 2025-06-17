@@ -1,0 +1,19 @@
+﻿- type: loadout
+  id: CellMedClothingUniformJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOperative
+
+- type: loadout
+  id: CellMedClothingUniformJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtOperative
+
+- type: loadout
+  id: CellMedClothingUniformJumpskirtFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSyndieFormalDress
+
+- type: loadout
+  id: CellMedClothingUniformJumpsuitFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSyndieFormalNF
