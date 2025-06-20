@@ -111,7 +111,7 @@
   parent: BaseAlcohol
   desc: reagent-desc-dead-rum
   physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: rum
+  flavor: deadrum #Delta-V Flavor additions
   color: "#664300"
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/rumglass.rsi
@@ -243,7 +243,7 @@
   parent: BaseAlcohol
   desc: reagent-desc-n-t-cahors
   physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: bitter
+  flavor: n-t-cahors #Delta-V Flavor additions
   color: "#7E4043"
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/wineglass.rsi
@@ -258,7 +258,7 @@
   parent: BaseAlcohol
   desc: reagent-desc-poison-wine
   physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: bitter
+  flavor: poison-wine #Delta-V Flavor additions
   color: "#990066"
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/pwineglass.rsi
@@ -305,28 +305,29 @@
         reagent: Ethanol
         amount: 0.2
 
-- type: reagent
-  id: Sake
-  name: reagent-name-sake
-  parent: BaseAlcohol
-  desc: reagent-desc-sake
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: sake
-  color: "#DDDDDD"
-  metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/sakeglass.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.2
+# Removed in favor of Nyanotrasen Sake Glass
+# - type: reagent
+#   id: Sake
+#   name: reagent-name-sake
+#   parent: BaseAlcohol
+#   desc: reagent-desc-sake
+#   physicalDesc: reagent-physical-desc-strong-smelling
+#   flavor: sake
+#   color: "#DDDDDD"
+#   metamorphicSprite:
+#     sprite: Objects/Consumable/Drinks/sakeglass.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.2
 
 - type: reagent
   id: Tequila
@@ -1196,7 +1197,7 @@
   parent: BaseAlcohol
   desc: reagent-desc-irish-cream
   physicalDesc: reagent-physical-desc-creamy
-  flavor: creamy
+  flavor: irish-cream #Delta-V Flavor additions
   color: "#664300"
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/irishcreamglass.rsi
@@ -1664,7 +1665,7 @@
   parent: BaseAlcohol
   desc: reagent-desc-silencer
   physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: nothing
+  flavor: silencer #Delta-V Flavor additions
   color: "#878787"
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/silencerglass.rsi
@@ -1734,7 +1735,7 @@
   parent: BaseAlcohol
   desc: reagent-desc-syndicate-bomb
   physicalDesc: reagent-physical-desc-opaque
-  flavor: syndiebomb
+  flavor: syndicate-bomb #Delta-V Flavor additions
   color: "#e3e77b"
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/syndicatebomb.rsi
@@ -2385,10 +2386,10 @@
 
 - type: reagent
   id: Daiquiri
-  name: reagent-name-daiquiri
-  parent: BaseAlcohol
-  desc: reagent-desc-daiquiri
-  physicalDesc: reagent-physical-desc-strong-smelling
+  name: reagent-name-daiquiri-deltav # DeltaV
+  parent: BaseDrink # DeltaV
+  desc: reagent-desc-daiquiri-deltav # DeltaV
+  physicalDesc: reagent-physical-desc-tart # DeltaV
   flavor: daiquiri
   color: "#DAC865"
   metamorphicSprite:

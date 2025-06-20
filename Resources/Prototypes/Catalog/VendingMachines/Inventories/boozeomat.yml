@@ -8,6 +8,7 @@
     DrinkShaker: 5
     DrinkJigger: 5
     DrinkIceBucket: 2
+    Skimmer: 2 # DeltaV - adds skimmer
     BarSpoon: 3
     DrinkKegSteel: 2 # Frontier: kegs
     DrinkKegWood: 2 # Frontier: kegs
@@ -46,9 +47,11 @@
     DrinkWhiskeyBottleFull: 5
     DrinkWineBottleFull: 5
     DrinkChampagneBottleFull: 2 #because the premium drink
+    DrinkSojuBottleFull: 2 # DeltaV - Soju bottle
     DrinkSakeBottleFull: 3
     DrinkBeerCan: 5
     DrinkWineCan: 5
+    DrinkAngobittersBottleFull: 3 # DeltaV - Angostura Bitters Bottle
   contrabandInventory:
     ChemistryBottleEthanol: 3
     DrinkBottleOfNothingFull: 1
