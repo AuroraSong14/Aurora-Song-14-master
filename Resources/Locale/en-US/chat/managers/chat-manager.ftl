@@ -31,7 +31,7 @@ chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][Bubble
 # THE() is not used here because the entity and its name can technically be disconnected if a nameOverride is passed...
 chat-manager-entity-me-wrap-message = [italic]{ PROPER($entity) ->
     *[false] The {$entityName} {$message}[/italic]
-     [true] [Name]{CAPITALIZE($entityName)}[/Name] {$message}[/italic]
+     [true] [Name]{$entityName}[/Name] {$message}[/italic]
     }
 
 chat-manager-entity-subtle-wrap-message = [italic]{ PROPER($entity) ->
