@@ -7,6 +7,7 @@ using Content.Shared.DeviceNetwork.Components;
 using Content.Shared.DeviceNetwork.Events;
 using Content.Shared.Emag.Systems;
 using Robust.Shared.Utility;
+using Content.Shared._Corvax.Silicons.Borgs.Components; // Corvax-Next-AiRemoteControl
 
 namespace Content.Server.Silicons.Borgs;
 
@@ -47,7 +48,8 @@ public sealed partial class BorgSystem
                 charge,
                 chassis.ModuleCount,
                 hasBrain,
-                canDisable);
+                canDisable,
+                HasComp<AiRemoteControllerComponent>(uid)); // Corvax-Next-AiRemoteControl
 
             var payload = new NetworkPayload()
             {
