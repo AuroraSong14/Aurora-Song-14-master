@@ -53,13 +53,13 @@
     - id: MercCoin1
     - id: CrossbowImprovised
     - id: ClothingBeltQuiverCrossbowFilledBolt
-    - id: SpaceCash1000
+    - id: SpaceCash2500
     # Bonus Loot T1
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.9
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.7
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
@@ -74,11 +74,11 @@
     - id: MercCoin1
     - id: CrossbowImprovised
     - id: ClothingBeltQuiverCrossbowFilledUranium
-    - id: SpaceCash1000
+    - id: SpaceCash2500
     # Bonus Loot T1
-    - id: SpaceCash500
-      prob: 0.9
     - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
@@ -94,13 +94,13 @@
     items:
     - id: MercCoin1
     - id: ClothingBeltQuiverCrossbowFilledPlasma
-    - id: SpaceCash500
+    - id: SpaceCash1000
     # Bonus Loot T1
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.9
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.7
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
@@ -113,11 +113,11 @@
   - type: SpawnItemsOnUse
     items:
     - id: MercCoin1
-    - id: SpaceCash500
-    # Bonus Loot T1
-    - id: SpaceCash500
-      prob: 0.9
     - id: SpaceCash1000
+    # Bonus Loot T1
+    - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
@@ -133,9 +133,9 @@
   - type: SpawnItemsOnUse
     items:
     - id: MercCoin1
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.95
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.95
     - id: Bloodpack
       prob: 0.08
@@ -145,11 +145,11 @@
     - id: MaterialBones
       prob: 0.2
     # Bonus Loot T2
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.9
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
       amount: 2
@@ -169,9 +169,9 @@
   - type: SpawnItemsOnUse
     items:
     - id: MercCoin1
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.95
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.5
     - id: Bloodpack
       prob: 0.06
@@ -181,11 +181,11 @@
     - id: MaterialBones
       prob: 0.1
     # Bonus Loot T3
-    - id: SpaceCash1000
-      prob: 0.9
-    - id: SpaceCash500
+    - id: SpaceCash2500
       prob: 0.9
     - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootMaterialsValuableFull
       prob: 0.7
@@ -207,7 +207,7 @@
   - type: SpawnItemsOnUse
     items:
     - id: MercCoin1
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.95
     - id: Bloodpack
       prob: 0.04
@@ -217,9 +217,9 @@
     - id: MaterialBones1
       prob: 0.1
     # Bonus Loot T1
-    - id: SpaceCash500
-      prob: 0.9
     - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
@@ -234,7 +234,7 @@
   - type: SpawnItemsOnUse
     items:
     - id: MercCoin1
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.95
     - id: Bloodpack
       prob: 0.02
@@ -244,11 +244,11 @@
     - id: MaterialBones1
       prob: 0.05
     # Bonus Loot T1
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.9
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.7
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg

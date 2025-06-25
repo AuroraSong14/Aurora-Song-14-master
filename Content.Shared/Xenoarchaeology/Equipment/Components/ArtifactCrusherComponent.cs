@@ -52,13 +52,13 @@ public sealed partial class ArtifactCrusherComponent : Component
     /// The minimum amount of fragments spawned.
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
-    public int MinFragments = 2;
+    public int MinFragments = 1; // Aurora: 2->1
 
     /// <summary>
     /// The maximum amount of fragments spawned, non-inclusive.
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
-    public int MaxFragments = 5;
+    public int MaxFragments = 3; // Aurora: 5->3
 
     /// <summary>
     /// The material for the fragments.

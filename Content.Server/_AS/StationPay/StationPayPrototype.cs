@@ -1,7 +1,7 @@
 ﻿using Content.Shared.Roles;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server._Aurora.StationPay;
+namespace Content.Server._AS.StationPay;
 
 [Prototype]
 public sealed class StationPayPrototype : IPrototype

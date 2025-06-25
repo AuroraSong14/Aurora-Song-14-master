@@ -1,0 +1,41 @@
+﻿- type: pointOfInterest
+  id: Arrivals
+  parent: BasePOI
+  name: 'Arrival Relay'
+  minimumDistance: 29750
+  maximumDistance: 30000
+  spawnGroup: Required
+  gridPath: /Maps/_AS/POI/arrival_station.yml
+  addComponents:
+  - type: IFF
+    color: "#036206"
+    flags: [HideLabel, Hide]
+    readOnly: false
+  - type: ProtectedGrid
+    preventEmpEvents: true
+  - type: StationTransit
+    routes:
+      ArrivalsExpress: 10
+
+- type: gameMap
+  id: Arrivals
+  mapName: 'Arrival Relay'
+  mapPath: /Maps/_AS/POI/arrival_station.yml
+  minPlayers: 0
+  stations:
+    Arrivals:
+      stationProto: RecordsFrontierOutpost
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Arrival Relay'
+        - type: ExtraStationInformation
+          iconPath: /Textures/_NF/Markers/jobs.rsi/medic.png
+          stationSubtext: 'frontier-lobby-arrivals-subtext'
+          stationDescription: 'frontier-lobby-arrivals-description'
+          lobbySortOrder: 5
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ -1, -1 ]
+            Pilot: [ -1, -1 ]
+            Mercenary: [ -1, -1 ]
+        - type: StationDeadDropHintExempt

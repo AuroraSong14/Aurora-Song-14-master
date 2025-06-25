@@ -1,0 +1,7 @@
+﻿- type: entity
+  parent: AirlockGlassShuttle
+  id: AirlockExternalGlassShuttleArrival
+  suffix: Ext, Arrivals, Glass, Docking, Bus
+  components:
+  - type: PriorityDock
+    tag: ArrivalShuttle

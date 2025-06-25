@@ -36,6 +36,7 @@
     - ActionJumpToCore
     - ActionSurvCameraLights
     - ActionAIViewLaws
+    - ActionOpenRemoteDevicesMenu # Corvax-Next-AiRemoteControl
   - type: UserInterface
     interfaces:
       enum.RadarConsoleUiKey.Key:
@@ -48,6 +49,8 @@
         type: SiliconLawBoundUserInterface
       enum.CommunicationsConsoleUiKey.Key:
         type: CommunicationsConsoleBoundUserInterface
+      enum.RemoteDeviceUiKey.Key: # Corvax-Next-AiRemoteControl
+        type: RemoteDevicesBoundUserInterface
   - type: IntrinsicUI
     uis:
       enum.RadarConsoleUiKey.Key:
@@ -75,6 +78,9 @@
     - sprite: Mobs/Silicon/station_ai.rsi
       state: default
   - type: ShowJobIcons
+  - type: Tag
+    tags:
+    - CanPilot
 
 - type: entity
   id: AiHeldIntellicard
@@ -234,6 +240,9 @@
           type: HolopadBoundUserInterface
         enum.HolopadUiKey.AiActionWindow:
           type: HolopadBoundUserInterface
+  - type: Tag
+    tags:
+    - CanPilot
 
 # The job-ready version of an AI spawn.
 - type: entity
@@ -488,3 +497,22 @@
       raffle:
         settings: default
     - type: GhostTakeoverAvailable
+
+- type: entity
+  id: PlayerBorgRemote
+  parent: BorgChassisSelectable
+  suffix: Remote
+  components:
+  - type: ContainerFill
+    containers:
+      borg_brain:
+      - AiRemoteBrain
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMedium
+  - type: StartingMindRole
+    mindRole: "MindRoleSiliconBrain"
+    silent: true
+  - type: AiRemoteController

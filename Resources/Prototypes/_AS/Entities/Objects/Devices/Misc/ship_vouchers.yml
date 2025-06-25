@@ -1,0 +1,34 @@
+﻿- type: entity
+  parent: BaseShipVoucher
+  id: ShipVoucherPirate #Aurora
+  name: Pirate Captain Voucher
+  description: Arrgh! Get a ship me heartie!
+  components:
+  - type: Item
+    heldPrefix: red
+  - type: Sprite
+    layers:
+    - state: red
+    - state: vouchermedical
+  - type: ShipyardVoucher
+    consoleType: BlackMarket
+    destroyOnEmpty: true
+    access:
+    - Pirate
+
+
+- type: entity
+  parent: BaseShipVoucher
+  id: ShipVoucherAuroraMedic
+  name: medic ship voucher
+  description: Allows for one free valet ship purchase from the medical Shipyard. Destroyed on sale.
+  components:
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: vouchermedical
+  - type: ShipyardVoucher
+    consoleType: Medical
+    destroyOnEmpty: true
+    access:
+    - Medical

@@ -79,9 +79,9 @@
       - id: SpaceCash5000
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash1000
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
@@ -110,11 +110,11 @@
       - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
-        prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -139,13 +139,13 @@
       - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash1000
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -167,11 +167,11 @@
       - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
-        prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -197,13 +197,13 @@
       - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash1000
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -226,11 +226,11 @@
       - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
-        prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -255,13 +255,13 @@
       - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash1000
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -280,15 +280,15 @@
   components:
   - type: SpawnItemsOnUse
     items:
+      - id: SpaceCash2500
       - id: SpaceCash1000
-      - id: SpaceCash500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
-        prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -321,7 +321,7 @@
         prob: 0.9
       - id: SpawnDungeonLootFlatpacks
         prob: 0.9
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -351,7 +351,7 @@
         prob: 0.9
       - id: SpawnDungeonLootFlatpacks
         prob: 0.9
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -380,7 +380,7 @@
         prob: 0.9
       - id: SpawnDungeonLootFlatpacks
         prob: 0.9
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -406,7 +406,7 @@
         prob: 0.9
       - id: SpawnDungeonLootFlatpacks
         prob: 0.9
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -429,15 +429,15 @@
       - id: NFWeaponSubMachineGunAtreidesExpedition
       - id: NFMagazineSubMachineGun35
       - id: NFMagazineSubMachineGun35
-      - id: SpaceCash1000
-      - id: SpaceCash1000
+      - id: SpaceCash2500
+      - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
-        prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -460,17 +460,17 @@
     items:
       - id: NFWeaponSubMachineGunC20rExpedition
       - id: NFMagazineSubMachineGun35
+      - id: SpaceCash2500
       - id: SpaceCash1000
-      - id: SpaceCash500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash1000
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -491,15 +491,15 @@
     items:
       - id: NFAmmunitionBoxPistol35Overpressure
       - id: NFAmmunitionBoxPistol35Overpressure
+      - id: SpaceCash2500
       - id: SpaceCash1000
-      - id: SpaceCash500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
-        prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -520,17 +520,17 @@
   components:
   - type: SpawnItemsOnUse
     items:
+      - id: SpaceCash2500
       - id: SpaceCash1000
-      - id: SpaceCash500
       - id: MercCoin1
       # Bonus Loot T3
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash500
+      - id: SpaceCash1000
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -553,12 +553,12 @@
       - id: NFWeaponPistolViperExpedition
       - id: NFMagazineHighCapacityPistol35
       - id: NFMagazineHighCapacityPistol35
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T1
-      - id: SpaceCash500
-        prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
@@ -574,12 +574,12 @@
     items:
       - id: NFWeaponPistolMk58Expedition
       - id: NFMagazineHighCapacityPistol35Overpressure
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T1
-      - id: SpaceCash500
-        prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
@@ -595,12 +595,12 @@
     items:
       - id: NFMagazineHighCapacityPistol35Overpressure
       - id: NFMagazineHighCapacityPistol35Overpressure
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T1
-      - id: SpaceCash500
-        prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
@@ -614,12 +614,12 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       - id: MercCoin1
       # Bonus Loot T1
-      - id: SpaceCash500
-        prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
@@ -663,11 +663,11 @@
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
       - id: Stimpack
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       # Bonus Loot T1
-      - id: SpaceCash500
-        prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
@@ -685,11 +685,11 @@
       - id: BruteAutoInjector
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       # Bonus Loot T1
-      - id: SpaceCash500
-        prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
@@ -706,11 +706,11 @@
       - id: HypoMini
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       # Bonus Loot T1
-      - id: SpaceCash500
-        prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
@@ -726,11 +726,11 @@
     items:
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       # Bonus Loot T1
-      - id: SpaceCash500
-        prob: 0.9
       - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
@@ -751,14 +751,14 @@
       - id: NFWeaponShotgunKammererExpedition
       - id: SyndicateJawsOfLife
       - id: NFAmmunitionBoxShellShotgunSlug
-      - id: SpaceCash1000
-      - id: SpaceCash1000
+      - id: SpaceCash2500
+      - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -779,11 +779,11 @@
     items:
       - id: NFWeaponShotgunKammererExpedition
       - id: JawsOfLife
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -805,13 +805,13 @@
   - type: SpawnItemsOnUse
     items:
       - id: JawsOfLife
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -830,11 +830,11 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: SpaceCash1000
+      - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -864,11 +864,11 @@
       - id: Stimpack
       - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -891,9 +891,9 @@
       - id: Stimpack
       - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -917,11 +917,11 @@
       - id: WeaponWaterBlaster
       - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -943,9 +943,9 @@
       - id: WeaponWaterPistol
       - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -971,11 +971,11 @@
         amount: 4
       - id: SpaceCash5000
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -998,9 +998,9 @@
         amount: 2
       - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
@@ -1025,11 +1025,11 @@
         amount: 4
       - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 2
@@ -1052,9 +1052,9 @@
         amount: 2
       - id: SpaceCash2500
       # Bonus Loot T2
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.9
-      - id: SpaceCash1000
+      - id: SpaceCash2500
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7

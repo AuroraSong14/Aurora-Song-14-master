@@ -42,6 +42,7 @@ using Content.Server.StationEvents.Components;
 using Content.Shared.Forensics.Components;
 using Robust.Server.Player;
 using Robust.Shared.Timing;
+using Content.Server._Mono.Shipyard;
 
 namespace Content.Server._NF.Shipyard.Systems;
 
@@ -278,6 +279,8 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
         SendPurchaseMessage(shipyardConsoleUid, player, name, component.ShipyardChannel, secret: false);
         if (component.SecretShipyardChannel is { } secretChannel)
             SendPurchaseMessage(shipyardConsoleUid, player, name, secretChannel, secret: true);
+
+        Get<ShipyardDirectionSystem>().SendShipDirectionMessage(player, shuttleUid);
 
         PlayConfirmSound(player, shipyardConsoleUid, component);
         if (voucherUsed)

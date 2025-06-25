@@ -21,6 +21,9 @@
 - type: Tag
   id: MercDock
 
+- type: Tag
+  id: ArrivalShuttle
+
 #region uplinks - Aurora
 - type: Tag
   id: MercenaryUplink

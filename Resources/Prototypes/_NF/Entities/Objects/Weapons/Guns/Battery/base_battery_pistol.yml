@@ -23,7 +23,7 @@
     maxAngle: 6.2
     angleIncrease: 0.25
     angleDecay: 1
-    fireRate: 3
+    fireRate: 4
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -49,7 +49,7 @@
     maxAngle: 7
     angleIncrease: 0.25
     angleDecay: 1
-    fireRate: 3
+    fireRate: 3.5
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-nanotrasen-munitions
 
@@ -63,7 +63,7 @@
     maxAngle: 8
     angleIncrease: 0.35
     angleDecay: 1
-    fireRate: 2
+    fireRate: 4
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-frontier-gunsmith-consortium
 

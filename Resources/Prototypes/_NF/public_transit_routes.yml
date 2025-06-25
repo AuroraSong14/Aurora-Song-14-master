@@ -32,3 +32,13 @@
   - Cheetah
   - Alleycat # the occasional crappy bus
   liveryColor: "#4444aa"
+
+# Aurora
+- type: publicTransitRoute
+  id: ArrivalsExpress
+  routeNumber: 4
+  stationsPerBus: 2
+  dockTag: arrivalshuttle
+  busVessels:
+  - ArrivalsBus
+  liveryColor: "#4444aa"

@@ -50,10 +50,10 @@
   - type: SpawnItemsOnUse
     items:
     - id: MercCoin1
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 1
       amount: 1
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.25
       amount: 1
     - id: SpawnDungeonLootCircuitBoard
@@ -72,9 +72,9 @@
       amount: 1
       prob: 0.05
     # Bonus Loot T1
-    - id: SpaceCash500
-      prob: 0.9
     - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash2500
       prob: 0.8
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
@@ -91,10 +91,10 @@
   - type: SpawnItemsOnUse
     items:
     - id: MercCoin1
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.95
       amount: 1
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.25
       amount: 1
     - id: GroundCannabis
@@ -116,9 +116,9 @@
       amount: 1
       prob: 0.05
     # Bonus Loot T2
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.9
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.8
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
@@ -142,10 +142,10 @@
   - type: SpawnItemsOnUse
     items:
     - id: MercCoin1
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.95
       amount: 1
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.25
       amount: 1
     - id: GroundCannabis
@@ -164,11 +164,11 @@
       amount: 1
       prob: 0.05
     # Bonus Loot T3
-    - id: SpaceCash1000
-      prob: 0.9
-    - id: SpaceCash500
+    - id: SpaceCash2500
       prob: 0.9
     - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash2500
       prob: 0.8
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
@@ -192,10 +192,10 @@
   - type: SpawnItemsOnUse
     items:
     - id: MercCoin1
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.95
       amount: 1
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.35
       amount: 1
     - id: GroundCannabis
@@ -220,11 +220,11 @@
       amount: 1
       prob: 0.45
     # Bonus Loot T3
-    - id: SpaceCash1000
-      prob: 0.9
-    - id: SpaceCash500
+    - id: SpaceCash2500
       prob: 0.9
     - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash2500
       prob: 0.8
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
@@ -251,7 +251,7 @@
     - id: SpaceCash2500
       prob: 0.95
       amount: 1
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.35
       amount: 1
     - id: GroundCannabis
@@ -281,7 +281,7 @@
     # Bonus Loot T4
     - id: SpaceCash2500
       prob: 0.9
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.8
     - id: SpawnDungeonLootFlatpacks
       prob: 0.9

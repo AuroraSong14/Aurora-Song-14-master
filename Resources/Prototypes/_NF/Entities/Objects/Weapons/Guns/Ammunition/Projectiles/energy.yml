@@ -9,7 +9,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 10
+        Heat: 12
 
 # Assault Rifles / Carbines
 - type: entity
@@ -38,7 +38,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 15
+        Heat: 16
 
 # Rifles
 - type: entity

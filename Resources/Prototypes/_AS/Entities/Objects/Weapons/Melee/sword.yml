@@ -1,0 +1,16 @@
+﻿- type: entity
+  name: Sweeping Song
+  parent: [ CaptainSabre, BaseC3Contraband ] # Frontier: BaseCommandContraband<BaseC1Contraband
+  id: SweepingSongGAMBLING
+  description: Do you hear death's sweet song? It sings to us.
+  components:
+  - type: MeleeWeapon
+    attackRate: 5
+    damage:
+      types:
+        Slash: 17
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: SentienceTarget
+    flavorKind: station-event-random-sentience-flavor-inanimate
+    weight: 1

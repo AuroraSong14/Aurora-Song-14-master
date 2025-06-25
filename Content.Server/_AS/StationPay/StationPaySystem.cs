@@ -7,7 +7,6 @@ using Content.Shared._NF.Bank.Components;
 using Content.Shared._NF.Roles.Components;
 using Content.Shared.Chat;
 using Content.Shared.Database;
-using Content.Shared.Mind;
 using Content.Shared.Mind.Components;
 using Content.Shared.Roles;
 using JetBrains.Annotations;
@@ -15,7 +14,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server._Aurora.StationPay;
+namespace Content.Server._AS.StationPay;
 
 internal sealed class ScheduledPayout(EntityUid uid, int lastPayout) : IComparable<ScheduledPayout>
 {

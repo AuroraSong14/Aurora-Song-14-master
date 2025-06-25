@@ -14,8 +14,8 @@
     sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
   - type: Gun
     projectileSpeed: 20
-    minAngle: 34.4
-    maxAngle: 43.2
+    minAngle: 1.4
+    maxAngle: 33.2
     angleIncrease: 7
     angleDecay: 5
     fireRate: 10
@@ -27,12 +27,12 @@
       params:
         volume: -5
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 0.25
+    rechargeCooldown: 0.2
     rechargeSound:
       path: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
       params:
         volume: -5
   - type: BasicEntityAmmoProvider
     proto: ASBulletKineticGambling
-    capacity: 36
-    count: 36
+    capacity: 50
+    count: 50

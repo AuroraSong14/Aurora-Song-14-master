@@ -20,7 +20,7 @@
       slotFlags: GLOVES
       uiWindowPos: 2,1
       strippingWindowPos: 2,2
-      displayName: Gloves
+      displayName: Glovesee
     - name: neck
       slotTexture: neck
       slotFlags: NECK
@@ -145,7 +145,7 @@
       slotTexture: wallet
       slotFlags: WALLET
       stripTime: 6
-      uiWindowPos: 2,0
+      uiWindowPos: 3,1
       strippingWindowPos: 2,1
       dependsOn: jumpsuit
       displayName: Wallet

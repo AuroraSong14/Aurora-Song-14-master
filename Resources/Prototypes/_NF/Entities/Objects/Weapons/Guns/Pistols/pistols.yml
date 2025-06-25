@@ -18,7 +18,7 @@
   parent: [ NFBaseWeaponPistolChamber45, NFBaseWeaponFramePistolNanotrasen ]
   name: N1984
   description: |-
-    The sidearm of any self respecting officer. On the handle is a label that says 'for authorized use only.'
+    The sidearm of any self respecting logistics officer. On the handle is a label that says 'for authorized use only.'
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi

@@ -6,7 +6,7 @@
   - type: StorageFill
     contents:
     - id: PunctAutoInjector
-      amount: 4
+      amount: 3
 
 - type: entity
   id: MedkitCombatCrisis
@@ -26,7 +26,7 @@
   - type: StorageFill
     contents:
     - id: BruizAutoInjector
-      amount: 4
+      amount: 3
 
 - type: entity
   id: MedkitCombatBurn
@@ -36,4 +36,4 @@
   - type: StorageFill
     contents:
     - id: BurnAutoInjector
-      amount: 4
+      amount: 3

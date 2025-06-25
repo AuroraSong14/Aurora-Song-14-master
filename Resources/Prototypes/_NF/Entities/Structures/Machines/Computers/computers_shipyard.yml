@@ -131,9 +131,6 @@
   - type: ShipyardConsole
     shipyardChannel: Syndicate
     #secretShipyardChannel: Nfsd #Find out via communicating with other players
-    taxAccounts:
-      Invalid: 0.30
-    ignoreBaseSaleRate: true # Fixed 70% sale rate.
     canTransferDeed: false
 
 - type: entity
@@ -162,9 +159,6 @@
   - type: ShipyardConsole
     shipyardChannel: Freelance
     #secretShipyardChannel: Nfsd #Find out via communicating with other players
-    taxAccounts:
-      Invalid: 0.30
-    ignoreBaseSaleRate: true # Fixed 70% sale rate.
     canTransferDeed: false
   - type: Destructible
     thresholds:

@@ -29,7 +29,7 @@
     maxAngle: 3.8
     angleIncrease: 1
     angleDecay: 2
-    fireRate: 3
+    fireRate: 5
     selectedMode: FullAuto
     availableModes:
       - SemiAuto
@@ -70,7 +70,7 @@
   - type: Gun
     angleIncrease: 1.2
     angleDecay: 2
-    fireRate: 2.5
+    fireRate: 7.5
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
     soundEmpty:

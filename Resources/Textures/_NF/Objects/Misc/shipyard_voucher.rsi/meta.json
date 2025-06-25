@@ -59,6 +59,9 @@
             "name": "vouchersergeant"
         },
         {
+            "name": "vouchermedical"
+        },
+        {
             "name": "voucherstationguard"
         },
         {

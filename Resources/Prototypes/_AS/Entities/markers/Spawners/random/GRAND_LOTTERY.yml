@@ -1,0 +1,151 @@
+﻿# Basic Gambling Crate
+- type: entity
+  name: LotteryPullBasic
+  id: LotteryPullBasic
+  parent: MarkerBasePlaceFree
+  suffix: "Gambling"
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+        scale: 0.7, 0.7
+      - sprite: Objects/Misc/skub.rsi
+        scale: 0.7, 0.7
+        state: icon
+      - sprite: _NF/Markers/general.rsi
+        state: questionmark
+        color: red
+  - type: RandomSpawner
+    prototypes:
+    - SpawnDungeonLootCircuitBoard
+    - SpawnDungeonLootToolbox
+    - SpawnDungeonLootFlatpacksEngi
+    - SpawnDungeonLootFlatpacks
+    - SpawnDungeonLootPartsEngi
+    - SpawnDungeonLootToolsBasicEngineering
+    - SpawnDungeonLootMaterialsValuableSingle
+    - SpawnDungeonLootMaterialsBasicSingle
+    - SpawnDungeonLootClothesEngi
+    - SpawnDungeonLootVendingRestocks
+    - SpawnDungeonLootFlatpacksEngi
+    - SpawnDungeonLootBureaucracy
+    - SpawnDungeonLootBureaucracyPen
+    - SpawnDungeonLootGunT2
+    - MechEmuCargo
+    - Telecrystal1
+    - Telecrystal5
+    - SpaceCash10000
+    - SpaceCash5000
+    - SpaceCash2500
+    - SpaceCash500
+    - SpaceCash100
+    - SpaceCash10
+    - SpaceCash
+    - CigaretteSpent
+    - FoodBowlBigTrash
+    - FoodFrozenPopsicleTrash
+    - FoodCornTrash
+    - TrashBananaPeel
+    - TrashBananaPeelExplosive
+    - FoodTinBeansTrash
+    - TrashBakedBananaPeel
+    - TrashMimanaPeel
+    - TrashBananiumPeel
+    - NFWeaponLauncherPirateCannon # Frontier: WeaponLauncherPirateCannon<NFWeaponLauncherPirateCannon
+    - SpawnDungeonLootMeleeT3
+    - SpawnDungeonLootGunT2 # Frontier: WeaponSniperMosin<NFWeaponRifleBarlowsBolt
+    - SpawnDungeonLootGunT3 # Frontier: WeMakeshiftLaser<NFWeaponEnergyPistolLaserMakeshift
+    - Sledgehammer
+    - WeaponMeleeToolboxRobust
+    - ThrowingStar #
+    - SpawnDungeonLootMeleeT2 # Frontier: WeaponShotgunHandmade<NFWeaponShotgunHandmade
+    - WeaponFlareGun
+    - ToySword
+    - Shovel
+    - WeaponWaterPistol
+    - WeaponWaterBlaster
+    - WeaponTurretXeno
+    - NFWeaponRifleFoam # Frontier: WeaponRifleFoam<NFWeaponRifleFoam
+    - ClothingUniformJumpsuitFamilyGuy
+    - ClothingOuterFlannelBlue
+    - ClothingHeadHelmetBone
+    - ClothingOuterSuitCarp
+    - ClothingHeadHatCatEars
+    - ClothingHeadHatDogEars
+    - ClothingOuterArmorReflective
+    - ClothingUniformJumpskirtSyndieFormalDress
+    - ClothingNeckCloakNanotrasen
+    - ClothingUniformJumpsuitNanotrasen
+    - ClothingShoesSnakeskinBoots
+    - ClothingOuterCoatSpaceAsshole
+    - ClothingUniformJumpsuitHawaiYellow
+    - ClothingHeadSafari
+    - ClothingMaskGasMercenary
+    - ClothingHeadHatCardborg
+    - ClothingUnderSocksCoder
+    - ClothingUniformJumpskirtOfLife
+    - ClothingNeckBling
+    - ClothingShoesBling
+    - IngotGold
+    - GoldOre1
+    - GoldOre
+    - DrinkGoldenCup
+    - ToolboxGoldFilled
+    - ClothingEyesGlassesGar
+    - ClothingEyesGlassesGarGiga
+    - ClothingEyesGlassesGarOrange
+    - ClothingHeadHatChameleon
+    - ClothingBeltChampion
+    - PlushieRGBee
+    - PlushieGhost
+    - PlushieHampter
+    - PlushieGhostRevenant
+    - PlushiePenguin
+    - PlushieHuman
+    - PlushieLizard
+    - PlushieRouny
+    - PlushieLamp
+    - PlushieSharkBlue
+    - PlushieMoth
+    - PlushieArachind
+    - PlushieThrongler
+    - AmeJar
+    - SoapOmega
+    - ClothingEyesGlassesMeson
+    - MechVim
+    - Chainsaw
+    - Crowbar
+    - WelderIndustrial
+    - HydroponicsToolHatchet
+    - ToyAmongPequeno
+    - Lamp
+    - FloraTreeLarge
+    - LightTree #Funny mobs maybe
+    #neful
+    - LidSalami
+    - MobHamsterHamlet
+    - MobLaserRaptor
+    - DrinkNothing
+    - FoodOatmeal
+    - RagItem
+    - ClothingHandsGlovesColorYellowBudget
+    - NFCartridgeCap # Frontier: CartridgeCap<NFCartridgeCap
+    - EncryptionKeyCommon
+    - CableHVStack1
+    - DrinkMugBlue
+    - CablecuffsBroken
+    - FoodPlateTin
+    - NFMagazineBoxFoam # Frontier: MagazineFoamBox<
+    - NFBoxDonkSoftBox # Frontier: use NF variant
+    - GrenadeFoamDart
+    chance: 1
+    offset: 0.0
+    rarePrototypes:
+    - SweepingSongGAMBLING
+    - ASWeaponPKSLAYGambling
+    - ClothingHandsGlovesNorthStarRaiden
+    - ClothingMagbootsGamblingCursed
+    - ClothingEyesHudOmni
+    - Omnitool
+    - MobWizFedWizardViolet
+    rareChance: 0.001

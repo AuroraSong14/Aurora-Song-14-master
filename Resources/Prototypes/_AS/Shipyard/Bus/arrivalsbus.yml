@@ -1,0 +1,19 @@
+﻿- type: vessel
+  id: ArrivalsBus
+  parent: BaseVesselBus
+  shuttlePath: /Maps/_AS/Shuttles/Bus/arrival_bus.yml
+
+- type: gameMap
+  id: ArrivalsBus
+  mapName: 'Arrivals'
+  mapPath: /Maps/_AS/Shuttles/Bus/arrival_bus.yml
+  minPlayers: 0
+  stations:
+    ArrivalsBus:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Bus {1}' # Will be overwritten
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

@@ -96,9 +96,9 @@
     # Cash
     - id: SpaceCash100
       prob: 0.9
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.65
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.45
     # Weapons
     - id: NFWeaponPistolMk58Expedition
@@ -110,9 +110,9 @@
     - id: ClothingNeckIFFNeutral
       prob: 0.2
     # Bonus Loot T1
-    - id: SpaceCash500
-      prob: 0.9
     - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
@@ -126,7 +126,6 @@
   components:
   - type: SpawnItemsOnUse
     items:
-    - id: MercCoin1
     - id: NFMagazinePistol35
       prob: 0.9
     - id: NFMagazinePistol35Empty
@@ -152,9 +151,9 @@
     # Cash
     - id: SpaceCash100
       prob: 0.9
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.65
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.45
     # Weapons
     - id: NFWeaponRifleAssaultNovaliteC1Expedition
@@ -166,11 +165,11 @@
     - id: ClothingNeckIFFNeutral
       prob: 0.2
     # Bonus Loot T2
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.9
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
       amount: 2
@@ -189,7 +188,6 @@
   components:
   - type: SpawnItemsOnUse
     items:
-    - id: MercCoin1
     - id: NFAmmunitionBoxRifle20
       prob: 0.9
     - id: NFMagazineClipRifle20
@@ -213,11 +211,11 @@
     items:
     - id: MercCoin1
     # Cash
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.9
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.65
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.45
     # Weapons
     - id: NFWeaponShotgunKammererExpedition
@@ -229,11 +227,11 @@
     - id: ClothingNeckIFFNeutral
       prob: 0.2
     # Bonus Loot T2
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.9
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
       amount: 2
@@ -252,7 +250,6 @@
   components:
   - type: SpawnItemsOnUse
     items:
-    - id: MercCoin1
     - id: NFAmmunitionBoxShellShotgunBuckshot
       prob: 0.9
     - id: NFAmmunitionBoxShellShotgunBuckshot
@@ -269,11 +266,11 @@
     items:
     - id: MercCoin1
     # Cash
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.9
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.65
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.45
     # Weapons
     - id: NFWeaponRevolverArgentiExpedition
@@ -289,9 +286,9 @@
     - id: ClothingNeckIFFNeutral
       prob: 0.2
     # Bonus Loot T2
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.9
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootMaterialsValuableFull
       prob: 0.7
@@ -315,7 +312,6 @@
     state: icon
   - type: SpawnItemsOnUse
     items:
-    - id: MercCoin1
     - id: NFSpeedLoaderPistol35
       prob: 0.9
     - id: NFSpeedLoaderPistol35
@@ -339,11 +335,11 @@
     items:
     - id: MercCoin1
     # Cash
-    - id: SpaceCash500
-      prob: 0.9
-    - id: SpaceCash500
-      prob: 0.4
     - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash1000
+      prob: 0.4
+    - id: SpaceCash2500
       prob: 0.2
     # Weapons
     - id: NFWeaponEnergyPistolLaserExpedition
@@ -357,13 +353,13 @@
     - id: ClothingNeckIFFNeutral
       prob: 0.2
     # Bonus Loot T3
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.9
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.9
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
       amount: 2
@@ -385,7 +381,6 @@
     state: icon
   - type: SpawnItemsOnUse
     items:
-    - id: MercCoin1
     - id: Brutepack
       prob: 0.6
     - id: Ointment
@@ -413,11 +408,11 @@
     items:
     - id: MercCoin1
     # Cash
-    - id: SpaceCash500
-      prob: 0.9
-    - id: SpaceCash500
-      prob: 0.4
     - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash1000
+      prob: 0.4
+    - id: SpaceCash2500
       prob: 0.2
     # Weapons
     - id: NFWeaponRifleAssaultGestioExpedition
@@ -429,11 +424,11 @@
     - id: ClothingNeckIFFNeutral
       prob: 0.2
     # Bonus Loot T3
-    - id: SpaceCash1000
-      prob: 0.9
-    - id: SpaceCash500
+    - id: SpaceCash2500
       prob: 0.9
     - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootMaterialsValuableFull
       prob: 0.7
@@ -457,7 +452,6 @@
     state: icon
   - type: SpawnItemsOnUse
     items:
-    - id: MercCoin1
     - id: NFMagazineLowCapacityRifle30
       prob: 0.6
     - id: NFMagazineLowCapacityRifle30
@@ -514,9 +508,9 @@
     # Cash
     - id: SpaceCash2500
       prob: 0.9
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.65
-    - id: SpaceCash500
+    - id: SpaceCash1000
       prob: 0.45
     - id: SpaceCash2500
       prob: 0.1
@@ -542,7 +536,7 @@
       prob: 0.9
     - id: SpawnDungeonLootFlatpacks
       prob: 0.9
-    - id: SpaceCash1000
+    - id: SpaceCash2500
       prob: 0.7
     - id: SpawnDungeonLootMaterialsValuableFull
       prob: 0.7

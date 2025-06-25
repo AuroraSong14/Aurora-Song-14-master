@@ -74,9 +74,18 @@ public sealed partial class RoboticsConsoleWindow : FancyWindow
         _cyborgs = state.Cyborgs;
 
         // clear invalid selection
-        if (_selected is {} selected && !_cyborgs.ContainsKey(selected))
+        if (_selected is { } selected && !_cyborgs.ContainsKey(selected))
             _selected = null;
 
+        // Corvax-Next-AiRemoteControl-Start
+        var isAiControllable = false;
+
+        if (_selected != null)
+        {
+            _cyborgs.TryGetValue(_selected, out var data);
+            isAiControllable = data.IsAiControllable;
+        }
+        // Corvax-Next-AiRemoteControl-End
         var hasCyborgs = _cyborgs.Count > 0;
         NoCyborgs.Visible = !hasCyborgs;
         CyborgsContainer.Visible = hasCyborgs;
@@ -104,7 +113,7 @@ public sealed partial class RoboticsConsoleWindow : FancyWindow
 
     private void PopulateData()
     {
-        if (_selected is not {} selected)
+        if (_selected is not { } selected)
         {
             SelectCyborg.Visible = true;
             BorgContainer.Visible = false;
@@ -119,7 +128,8 @@ public sealed partial class RoboticsConsoleWindow : FancyWindow
 
         BorgSprite.Texture = _sprite.Frame0(data.ChassisSprite!);
 
-        var batteryColor = data.Charge switch {
+        var batteryColor = data.Charge switch
+        {
             < 0.2f => "red",
             < 0.4f => "orange",
             < 0.6f => "yellow",

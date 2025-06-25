@@ -28,7 +28,7 @@
     maxAngle: 8.2
     angleIncrease: 0.25
     angleDecay: 1
-    fireRate: 4
+    fireRate: 5
     selectedMode: FullAuto
     availableModes:
     - FullAuto
@@ -52,7 +52,7 @@
   - type: Gun
     minAngle: 4.6
     maxAngle: 8.6
-    fireRate: 3.5
+    fireRate: 4
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
 

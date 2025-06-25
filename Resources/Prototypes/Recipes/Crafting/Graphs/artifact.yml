@@ -7,7 +7,7 @@
     - to: done
       steps:
       - material: ArtifactFragment
-        amount: 10 # Frontier: 4<10
+        amount: 4 # Aurora: 10->4
         doAfter: 5
   - node: done
     entity: ComplexXenoArtifactItem

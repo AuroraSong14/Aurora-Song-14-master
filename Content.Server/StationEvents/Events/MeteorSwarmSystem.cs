@@ -1,5 +1,4 @@
 using System.Numerics;
-using Content.Server._Aurora.StationEvents.Events;
 using Content.Server.Chat.Systems;
 using Content.Server.GameTicking.Rules;
 using Content.Server.Station.Components;
@@ -46,7 +45,7 @@ public sealed class MeteorSwarmSystem : GameRuleSystem<MeteorSwarmComponent>
         component.NextWaveTime += TimeSpan.FromSeconds(component.WaveCooldown.Next(RobustRandom));
         // Aurora: filter by ValidMeteorSwarmComponent to prevent ships from being hit
         var stations = _station.GetStations()
-            .FindAll(it => it.Valid && HasComp<ValidMeteorSwarmComponent>(it));
+            .FindAll(it => it.Valid && HasComp<_AS.StationEvents.Events.ValidMeteorSwarmComponent>(it));
 
         if (stations.Count == 0)
             return;

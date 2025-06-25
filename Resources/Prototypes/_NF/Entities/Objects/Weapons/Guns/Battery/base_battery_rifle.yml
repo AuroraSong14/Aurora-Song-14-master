@@ -29,7 +29,7 @@
     maxAngle: 3
     angleIncrease: 0.5
     angleDecay: 1
-    fireRate: 2.25
+    fireRate: 3
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto

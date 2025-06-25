@@ -27,3 +27,6 @@
   id: MedicGear
   equipment:
     pocket2: MedicalAppraisalTool
+  storage:
+    back:
+    - ShipVoucherAuroraMedic

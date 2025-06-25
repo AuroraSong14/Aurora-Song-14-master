@@ -807,7 +807,7 @@
   description: uplink-cyberpen-desc
   productEntity: CyberPen
   cost:
-    Telecrystal: 8 # Frontier: 1<8 - same price as an emag, should be more useful here
+    Telecrystal: 4 # Frontier: 1<8 - same price as an emag, should be more useful here
   categories:
   - UplinkDeception
 
@@ -906,9 +906,9 @@
   productEntity: Emag
   discountCategory: veryRareDiscounts
   discountDownTo:
-   Telecrystal: 4
+   Telecrystal: 3
   cost:
-   Telecrystal: 8
+   Telecrystal: 6
   categories:
   - UplinkDisruption
 
