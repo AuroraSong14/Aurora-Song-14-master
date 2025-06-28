@@ -267,6 +267,8 @@ entities:
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
         path: /Audio/Effects/alert.ogg
+    - type: DeletionCensusExempt
+      passOnGridSplit: true
     - type: WorldGenDistanceCarver
       distanceThresholds:
       - prob: 0
