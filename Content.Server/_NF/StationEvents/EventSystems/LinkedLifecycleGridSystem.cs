@@ -5,13 +5,12 @@ using Content.Shared.Humanoid;
 using Content.Shared.Mech.Components;
 using Content.Shared.Mind;
 using Content.Shared.Mind.Components;
-using Content.Shared.Mobs.Components;
 using Content.Shared.Silicons.Borgs.Components;
 using Content.Shared.Movement.Pulling.Components;
 using Robust.Shared.Map;
 using Robust.Shared.Player;
 using Content.Shared._Goobstation.Vehicles;
-//using Content.Shared.Item;
+using Content.Server.Touched;
 
 namespace Content.Server.StationEvents.Events;
 
@@ -97,18 +96,19 @@ public sealed class LinkedLifecycleGridSystem : EntitySystem
     {
         List<(Entity<TransformComponent> Entity, EntityUid MapUid, Vector2 MapPosition)> reparentEntities = new();
         HashSet<EntityUid> handledMindContainers = new();
-// Aurora: Commented out, don't re-add until garbage collection is done
-       // var itemQuery = AllEntityQuery<ItemComponent, TransformComponent>();
-       // while (itemQuery.MoveNext(out var itemUid, out var xform))
-       // {
-       //     if (xform.GridUid == null || xform.MapUid == null || xform.GridUid != grid || xform.ParentUid != grid || xform.Anchored != false)
-       //         continue;
-//
-       //     var (targetUid, targetXform) = GetParentToReparent(itemUid.Owner, xform);
-//
-       //     reparentEntities.Add(((targetUid, targetXform), targetXform.MapUid!.Value, _transform.GetWorldPosition(targetXform)));
-       // }
-//
+
+        var itemQuery = AllEntityQuery<TouchedComponent, TransformComponent>();
+        while (itemQuery.MoveNext(out var touched, out var xform))
+        {
+            if (xform.GridUid == null || xform.MapUid == null || xform.GridUid != grid || xform.ParentUid != grid || xform.Anchored != false ||
+                touched.Touched == false)
+                continue;
+
+            var (targetUid, targetXform) = GetParentToReparent(touched.Owner, xform);
+
+            reparentEntities.Add(((targetUid, targetXform), targetXform.MapUid!.Value, _transform.GetWorldPosition(targetXform)));
+        }
+
         // Get player characters
         var mobQuery = AllEntityQuery<HumanoidAppearanceComponent, BankAccountComponent, TransformComponent>();
         while (mobQuery.MoveNext(out var mobUid, out _, out _, out var xform))
